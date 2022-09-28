@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FollowYourMood</title>
+    <script src="https://cdn.staticfile.org/jquery/3.6.1/jquery.min.js"></script>
+    <style>
+      body {
+        margin: 0px;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+      }
+
+      .textContianer {
+        z-index: -1;
+        width: 200px;
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="textContianer">
+      <div>123432132</div>
+    </div> -->
+    <script src="./bundle.js"></script>
+    <script>
+      $(function () {
+        const colors = ['#C0D8FF', '#FFC0CB', '#ACDC93', '#EF5989', '#C3E455']
+        // $(".textContianer").css("background-color", "#fff");
+        $("body").css("background-color", colors[Math.round(Math.random()*4)]);
+        console.log("3122222222222");
+      });
+    </script>
+  </body>
+</html>
