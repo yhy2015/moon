@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FollowYourMood</title>
+    <script src="https://cdn.staticfile.org/jquery/3.6.1/jquery.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="./css/default.css" />
+    <script type="text/javascript" src="./js/jscex.js"></script>
+    <script type="text/javascript" src="./js/jscex-parser.js"></script>
+    <script type="text/javascript" src="./js/jscex-jit.js"></script>
+    <script type="text/javascript" src="./js/jscex-builderbase.js"></script>
+    <script type="text/javascript" src="./js/jscex-async.js"></script>
+    <script type="text/javascript" src="./js/jscex-async-powerpack.js"></script>
+    <script
+      type="text/javascript"
+      src="./js/functions.js"
+      charset="utf-8"
+    ></script>
+    <style>
+      body {
+        margin: 0px;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        align-content: center;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+      }
+
+      .textContianer {
+        z-index: -1;
+      }
+
+      #rain_code {
+        display: none;
+      }
+
+      #snow_code {
+        display: none;
+      }
+      #rain_snow_code {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 雨 -->
+    <div id="wrap">
+      <div id="text">
+        <div id="rain_code">
+          <span class="say"> 来不及牵你 </span><br /><span class="say"> </span
+          ><br />
+          <span class="say"> 在雨中漫步 </span><br /><span class="say"> </span
+          ><br />
+          <span class="say"> 分不清伴谁 </span><br /><span class="say"> </span
+          ><br />
+          <span class="say"> 依长凳盼雨 </span><br />
+        </div>
+        <div id="snow_code">
+          <span class="say"> 上一次做梦吓醒 </span><br /><span class="say"> </span
+          ><br />
+          <span class="say"> 你的嬉笑欢颜 </span><br /><span class="say"> </span
+          ><br />
+          <span class="say"> 你的情侣空间 </span><br />
+          <br />
+          <span class="say"> 大雪可以掩盖世间的痕迹 </span><br /><span class="say"> </span
+          ><br />
+          <span class="say"> 抹不掉那一段纯真的记忆</span><br /><span class="say"> </span>
+          <br />
+          <span class="say"> 不羡雪花朵朵开</span><br />
+          <br />
+          <span class="say"> 惟愿人儿生生爱</span><br />
+        </div>
+        <div id="rain_snow_code">
+          <span class="say"> 世上最好听的词</span><br /><span class="say"> </span
+          ><br />
+          <span class="say"> 小毛毛</span><br /><span class="say"> </span
+          ><br />
+          <span class="say"> 小毛毛 </span><br /><span class="say"> </span
+          ><br />
+          <span class="say"> 小毛毛 </span><br />
+        </div>
+      </div>
+    </div>
+    <script src="./bundle.js"></script>
+    <script></script>
+  </body>
+</html>
