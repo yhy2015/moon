@@ -85,10 +85,10 @@ class Snow {
             left: 0;
             top: 0;
             display: block;
-            width: ${this.isRain ? 8 : this.width}px;
+            width: ${this.isRain ? 5 : this.width}px;
             height: ${this.width}px;
             opacity: ${this.opacity};
-            background-image: radial-gradient(rgba(130, 216, 224, 0.8) 0%, rgba(255, 255, 255, 0) 60%);
+            background-image: radial-gradient(rgba(130, 216, 224, 1) 0%, rgba(255, 255, 255, 0) 60%);
             border-radius: 50%;
             z-index: 9999999999999;
             pointer-events: none;
